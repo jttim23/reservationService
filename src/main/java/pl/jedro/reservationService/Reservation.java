@@ -18,7 +18,7 @@ public class Reservation {
   private Customer customer;
   private String additionalInfo;
   private Long tableId;
-  private String status;
+  private State state;
   public Reservation() {
   }
 
